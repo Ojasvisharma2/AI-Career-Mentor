@@ -3,12 +3,12 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
 
-const authRouter = require('./routes/auth');
-const jobRouter = require('./routes/jobs');
-const resumeRouter = require('./routes/resume');
-const interviewRouter = require('./routes/interview');
-const roadmapRouter = require('./routes/roadmap');
-const careerMentor = require("./routes/mentor")
+const authRouter = require('./src/routes/auth');
+const jobRouter = require('./src/routes/jobs');
+const resumeRouter = require('./src/routes/resume');
+const interviewRouter = require('./src/routes/interview');
+const roadmapRouter = require('./src/routes/roadmap');
+const careerMentor = require("./src/routes/mentor")
 
 dotenv.config();
 const app = express();
