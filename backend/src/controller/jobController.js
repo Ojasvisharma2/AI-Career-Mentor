@@ -26,11 +26,11 @@ exports.createJob = async (req, res) => {
 
 exports.getJobs = async (req, res) => {
   try {
-    
+
     const jobs = await Job.find({ user: req.user.id }).sort({ createdAt: -1 });
     res.status(200).json({ success: true, data: jobs });
   } catch (error) {
-    console.error("🔥 GET /api/jobs error:", err.message);
+    console.error("🔥 GET /api/jobs error:", error.message);
     res.status(500).json({ success: false, message: error.message });
   }
 };
