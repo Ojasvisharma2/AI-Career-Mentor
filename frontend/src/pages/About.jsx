@@ -112,7 +112,7 @@ export default function About() {
                                className="flex items-center gap-2 text-white/80 hover:text-white hover:bg-white/10 px-4 py-2 rounded-xl transition-all duration-300 border border-slate-600/50 hover:border-purple-500/50">
                                 <FaLinkedin /> LinkedIn
                             </a>
-                            <a href="mailto:"imojasvisharma@gmail.com"
+                            <a href="mailto:imojasvisharma@gmail.com"
                                className="flex items-center gap-2 text-white/80 hover:text-white hover:bg-white/10 px-4 py-2 rounded-xl transition-all duration-300 border border-slate-600/50 hover:border-purple-500/50">
                                 <FaEnvelope /> Contact
                             </a>
