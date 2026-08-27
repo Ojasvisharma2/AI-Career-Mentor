@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const auth = require("../middleware/auth");
 const AiLog = require("../models/Ailog");
-const { generateRoadmap } = require("../utils/ai/openRuter");
+const { generateRoadmap } = require("../utils/ai/openRouter");
 
 router.post("/generate", auth, async (req, res) => {
   const { goal } = req.body;

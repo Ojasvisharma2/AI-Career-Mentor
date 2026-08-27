@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import { Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
@@ -10,7 +10,7 @@ import CareerRoadmap from "./pages/CareerRoadmap";
 import CareerMentor from "./pages/CareerMentor";
 import LandingPage from "./pages/LandingPage";
 import About from "./pages/About";
-import Howwork from "./pages/Howwork";  
+import Howwork from "./pages/howwork";  
 import PrivateRoute from "./components/PrivateRoute";
 import { AuthContext } from "./context/AuthContext";
 import { useContext } from "react";

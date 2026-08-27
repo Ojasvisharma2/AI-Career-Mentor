@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const auth = require("../middleware/auth");
-const { careerMentor } = require("../utils/ai/openRuter");
+const { careerMentor } = require("../utils/ai/openRouter");
 const AiLog = require("../models/Ailog");
 
 router.post("/ask", auth, async (req, res) => {

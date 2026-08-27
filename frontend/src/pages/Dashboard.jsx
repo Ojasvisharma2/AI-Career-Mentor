@@ -13,7 +13,7 @@ import {
   FaShieldAlt,
   FaGlobe,
 } from "react-icons/fa";
-import logo from "../assets/generated-image.png"
+import logo from "../assets/logo.jpeg"
 
 const navLinks = [
   {

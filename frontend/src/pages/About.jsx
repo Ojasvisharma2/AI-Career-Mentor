@@ -108,7 +108,7 @@ export default function About() {
                                className="flex items-center gap-2 text-white/80 hover:text-white hover:bg-white/10 px-4 py-2 rounded-xl transition-all duration-300 border border-slate-600/50 hover:border-purple-500/50">
                                 <FaGithub /> GitHub
                             </a>
-                            <a href="https://linkedin.com/in/ojasvi-sharma" target="_blank" rel="noreferrer"
+                            <a href="https://www.linkedin.com/in/ojasvi-sharma-964146299?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer"
                                className="flex items-center gap-2 text-white/80 hover:text-white hover:bg-white/10 px-4 py-2 rounded-xl transition-all duration-300 border border-slate-600/50 hover:border-purple-500/50">
                                 <FaLinkedin /> LinkedIn
                             </a>
@@ -116,7 +116,7 @@ export default function About() {
                                className="flex items-center gap-2 text-white/80 hover:text-white hover:bg-white/10 px-4 py-2 rounded-xl transition-all duration-300 border border-slate-600/50 hover:border-purple-500/50">
                                 <FaEnvelope /> Contact
                             </a>
-                            <a href="" download=""
+                            <a href="/Ojasvi_Sharma_Resume.pdf" download="Ojasvi_Sharma_Resume.pdf"
                                className="flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-xl hover:from-pink-500 hover:to-purple-500 transition-all duration-300">
                                 <FaFileDownload /> Resume
                             </a>

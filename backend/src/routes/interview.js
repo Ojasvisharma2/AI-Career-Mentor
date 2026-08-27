@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { mockInterview } = require("../utils/ai/openRuter"); 
+const { mockInterview } = require("../utils/ai/openRouter"); 
 const auth = require("../middleware/auth");
 const AiLog = require("../models/Ailog");
 
