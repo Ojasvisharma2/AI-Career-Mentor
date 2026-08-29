@@ -16,12 +16,13 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: [
-        "http://localhost:5173",
-        "https://ai-career-mentor-mi0y7h96v-ojasvi4.vercel.app"
-    ],
-    credentials: true
+  origin: [
+    "http://localhost:5173",
+    "https://ai-career-mentor-mi0y7h96v-ojasvi4.vercel.app"
+  ],
+  credentials: true
 }));
+
 app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
