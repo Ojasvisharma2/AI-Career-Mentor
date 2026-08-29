@@ -7,6 +7,13 @@ AI-CareerMentor is a full-stack web application designed to help students and jo
 The platform combines resume analysis, AI interview practice, personalized career roadmaps, career mentorship, and job application tracking in one place.
 
 ---
+🚀 Live Demo
+
+Frontend:
+https://ai-career-mentor-ojasvi4.vercel.app
+
+Backend API:
+https://ai-career-mentor-bwpw.onrender.com
 
 ## ✨ Features
 
@@ -124,77 +131,6 @@ AI-CareerMentor
 └── README.md
 ```
 
-🔄 Application Flow
-User
-│
-▼
-React Frontend
-│
-│ Axios / HTTP
-▼
-Node.js + Express
-│
-┌──────────┼──────────┐
-▼ ▼ ▼
-MongoDB AI APIs PDF Parser
-Atlas
-│ │
-└──────────┼──────────┘
-▼
-AI Response
-│
-▼
-React Frontend
-│
-▼
-User Result
-🔐 Authentication Flow
-User
-│
-▼
-Login/Register
-│
-▼
-Express API
-│
-▼
-MongoDB
-│
-▼
-JWT Token
-│
-▼
-Frontend
-│
-▼
-Protected Routes
-
-Protected features require authentication before accessing user-specific data.
-
-📄 Resume Analysis Flow
-User uploads PDF
-│
-▼
-Multer receives file
-│
-▼
-PDF Parser extracts text
-│
-▼
-AI API analyzes resume
-│
-▼
-Feedback generated
-│
-▼
-Result displayed to user
-│
-▼
-AI log stored in MongoDB
-
-Uploaded resume files are processed temporarily and removed after analysis.
-
-🤖 AI Integration
 
 AI-CareerMentor integrates multiple AI services for different AI-powered features.
 
