@@ -18,7 +18,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://ai-career-mentor-mi0y7h96v-ojasvi4.vercel.app"
+    "https://ai-career-mentor-ojasvi4.vercel.app"
   ],
   credentials: true
 }));
